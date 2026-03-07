@@ -1,8 +1,13 @@
-# LW3-Custom-Image-Classifier
+# 🌿 Custom Image Classifier with TensorFlow
 
-Building a Custom Image Classifier with TensorFlow Using Personal Image Datasets from Google Drive
+Building a **Custom Image Classifier** using personal image datasets stored in **Google Drive**.
 
-Part 1: Preparing and Loading Custom Images from Google Drive
+---
+
+## Part 1: Preparing and Loading Custom Images
+
+### Step 1 – Dataset Folder Structure
+
 <img width="1920" height="1080" alt="Screenshot 2026-03-07 113853" src="https://github.com/user-attachments/assets/522806c3-fc05-492b-b450-71f5a53fdf3d" />
 
 Step 2: Upload Dataset to Google Drive
