@@ -109,14 +109,57 @@ Step 1: Compile Model
 <img width="748" height="143" alt="image" src="https://github.com/user-attachments/assets/b119053a-ec15-4163-9b06-abe36c1c9521" />
 
 Step 2: Train Model
+<img width="884" height="572" alt="image" src="https://github.com/user-attachments/assets/72bad45a-780b-49bc-b20c-665d7b8a6d14" />
 
+Step 3: Visualize Improved Training Results
+<img width="693" height="562" alt="image" src="https://github.com/user-attachments/assets/d0856c99-49ea-4937-9d8e-71860bbc2e84" />
 
+Part 7: Predict on New Data
+Step-by-Step Procedure
+<img width="822" height="261" alt="image" src="https://github.com/user-attachments/assets/8546c44e-8b3e-4f93-a6d8-97d4a4bb5455" />
 
+Part 8: Save and Reuse the Model
 
+Step 1: Save Model to Google Drive
+<img width="711" height="63" alt="image" src="https://github.com/user-attachments/assets/94627051-0588-43fc-a3f7-df1f61c180a8" />
 
+Step 2: Load Saved Model
+<img width="819" height="79" alt="image" src="https://github.com/user-attachments/assets/36513d64-c7a2-4da2-be55-0e106416c810" />
 
+Guide Questions (Student Explanation & Reflection)
 
+Visualization & Overfitting
 
+1. What signs indicated overfitting in your first model?
+Overfitting was seen when the training accuracy became very high, but the validation accuracy stayed lower. This means the model learned the training images too well but could not perform well on new data.
+
+2. How did data augmentation affect validation accuracy?
+Data augmentation helped increase validation accuracy because it created more varied training images (rotated, flipped, etc.), which helped the model learn better and reduce overfitting.
+
+Model Improvement
+
+3. What is the purpose of dropout layers?
+Dropout layers randomly turn off some neurons during training so the model does not rely too much on specific features. This helps prevent overfitting.
+
+4. Why does data augmentation improve generalization?
+Data augmentation creates different versions of the same images, which helps the model learn patterns instead of memorizing images. This allows the model to work better on new unseen data.
+
+Performance Comparison
+
+5. Compare accuracy before and after improvements.
+Before improvements, the model had high training accuracy but lower validation accuracy.
+After adding dropout and data augmentation, the validation accuracy improved and became closer to the training accuracy, showing better performance.
+
+6. Which technique contributed most to improvement?
+Data augmentation contributed the most because it increased the variety of training images, helping the model learn more robust features.
+
+Deployment & Application
+
+7. Why is saving the model important?
+Saving the model allows us to reuse the trained model later without training it again, saving time and computing resources.
+
+8. How can this model be deployed in a real-world system?
+The model can be deployed in a web or mobile application where users upload an image and the system automatically predicts or classifies the object (for example, identifying a medical plant).
 
 
 
