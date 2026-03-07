@@ -33,6 +33,101 @@ Step 2: Build the CNN Model
 Step 3: Compile the Model
 <img width="744" height="185" alt="image" src="https://github.com/user-attachments/assets/1283dcad-23cf-43f7-87f8-9b5ca645cdec" />
 
+Step 4: Train the Model
+<img width="1138" height="618" alt="image" src="https://github.com/user-attachments/assets/c38a9298-aa41-4c5d-96be-3302342b346c" />
+
+Step 5: Evaluate Model Performance
+<img width="786" height="168" alt="image" src="https://github.com/user-attachments/assets/8daae358-df50-4945-822b-fb3335c32cf5" />
+
+Step 6: Test with a New Image
+<img width="915" height="350" alt="image" src="https://github.com/user-attachments/assets/cfdb8d82-4ccc-4122-84f3-7e92280cd425" />
+
+Guide Questions (Student Reflection & Explanation)
+1. Dataset Preparation
+
+Q: How did you organize your dataset in Google Drive?
+I created a main folder called ImageDataset and placed the images of each plant in separate subfolders. Each subfolder represents one class or label.
+
+Q: Why is folder structure important for TensorFlow image loading?
+The folder structure is important because TensorFlow uses the folder names as labels. If the folders are organized correctly, the images will be labeled properly during training.
+
+2. Model Training
+
+Q: What is the role of convolutional layers in image classification?
+Convolutional layers detect important features in images, such as edges, shapes, and patterns. These features help the model identify and classify the image.
+
+Q: Why do we split data into training and validation sets?
+The training set is used to teach the model, while the validation set is used to test how well the model works on new or unseen images.
+
+3. Performance Analysis
+
+Q: What accuracy did your model achieve?
+The model achieved about 99% training accuracy, but the validation accuracy was around 47%, which means the model learned the training data too well and did not perform well on new images.
+
+Q: How did the number of images affect the model’s performance?
+Each class had around 250 images, which helped with training but was still limited. Because of this, the model had difficulty generalizing and caused overfitting.
+
+4. Critical Thinking
+
+Q: What challenges did you encounter while using your own dataset?
+Some challenges were different image quality, slight imbalance in classes, slow loading from Google Drive, and overfitting during training.
+
+Q: How can data augmentation improve your model?
+Data augmentation creates new variations of images by flipping, rotating, or zooming them. This increases the dataset size and helps the model learn better.
+
+5. Application
+
+Q: Suggest a real-world application for your trained model.
+The model can be used to identify plant species from images, which can help in gardening, agriculture, and plant research.
+
+Q: How can this system be integrated into a mobile or web application?
+The model can be converted using TensorFlow Lite for mobile apps or TensorFlow.js for web apps, allowing users to upload images and get predictions instantly.
+
+
+Activity 3A: Improving and Evaluating a Custom Image Classifier
+Title:
+Enhancing Model Performance: Visualization, Overfitting Control, Data Augmentation, and Model Deployment
+
+Part 3: Visualizing Training Results & Detecting Overfitting
+Step 1: Plot Training vs Validation Accuracy and Loss
+<img width="706" height="580" alt="image" src="https://github.com/user-attachments/assets/dbae13d5-6c8c-4524-a11d-4a62326e440f" />
+
+Part 4: Applying Data Augmentation
+
+Step 1: Create Data Augmentation Layer
+<img width="501" height="175" alt="image" src="https://github.com/user-attachments/assets/bc02371c-90e5-4021-a5aa-064faea00dc8" />
+
+Step 2: Visualize Augmented Images
+<img width="640" height="699" alt="image" src="https://github.com/user-attachments/assets/2e25f945-3c70-4d73-8ed3-71cb90c30f91" />
+
+Part 5: Reducing Overfitting Using Dropout
+Step 1: Build an improved CNN Model
+<img width="757" height="368" alt="image" src="https://github.com/user-attachments/assets/8a8c7419-b1b9-4a32-909e-72b7c514a9e8" />
+
+Part 6: Compile and Train the Improved Model
+Step 1: Compile Model
+<img width="748" height="143" alt="image" src="https://github.com/user-attachments/assets/b119053a-ec15-4163-9b06-abe36c1c9521" />
+
+Step 2: Train Model
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
