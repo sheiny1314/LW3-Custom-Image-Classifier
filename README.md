@@ -3,7 +3,7 @@
 Building a **Custom Image Classifier** using personal image datasets stored in **Google Drive**.
 
 ---
-
+https://colab.research.google.com/drive/1U8GA7U3s_A1okH2LKcsnSFBbQnjWeN9O?authuser=1
 ## Part 1: Preparing and Loading Custom Images
 
 ### Step 1 – Dataset Folder Structure
